@@ -112,3 +112,13 @@ a, a:hover, a:focus, a:active {
       height: 550px;
       width: 550px;
   }
+
+  footer {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 100px;
+  }
+
+  i.fab {
+    color: #E16234;
+  }
