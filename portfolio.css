@@ -80,6 +80,12 @@ button {
     padding: 10px;
     margin: 40px;
     min-width: 120px;
+    border: 0px solid transparent;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 
 .about {
