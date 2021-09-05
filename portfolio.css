@@ -64,7 +64,7 @@ p {
     margin: 40px;
 }
 
-div {
+button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,3 +86,26 @@ div {
     width: 500px;
     height: 350px;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 150px;
+    padding-top: 100px;
+  }
+
+  .project-name {
+    background-color: #979797;
+    color: #F4E78C;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .grid-item {
+    background-color: #E2AA5F;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 300px;
+  }
