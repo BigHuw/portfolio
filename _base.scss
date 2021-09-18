@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
 
+@media screen and (min-width: 601px) {
+    body {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+     body {
+      width: 100%;
+    }
+  }
+
 $font-body: "Fugaz One", sans-serif;
 
 $color-primary: #578B7E;
