@@ -1,0 +1,74 @@
+.heading {
+    font-size: 250px;
+    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-left: 20px;
+    line-height: 101px;
+    text-shadow: 0px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+#Huw {
+    margin-top: 60px;
+}
+
+#about{
+    font-size: 140px;
+}
+
+.subheading {
+    color: $color-secondary-font;
+    font-size: 50px;
+    margin-left: 45px;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    background-color: $color-secondary;width: 93px;
+    height: 100px;
+    width: 200px;
+    left: 247px;
+    top: 406px;
+    background: #E2AA5F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    border: 0px solid transparent;
+    font-size: 30px;
+}
+
+a {
+    color: $color-secondary-font;
+}
+
+p {
+    width: 550px;
+    height: 300px;
+    left: 20px;
+    top: 204px;
+    color: $color-secondary-font;
+    background-color: $color-secondary;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 26px;
+    padding: 20px;
+}
+
+.project-name {
+    background-color: #979797;
+    color: #F4E78C;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+  }
+
+.grid-item img {
+    height: 550px;
+    width: 550px;
+}
+
+.wave {
+    vertical-align: top;
+}
