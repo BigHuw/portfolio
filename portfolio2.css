@@ -1,15 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
-@media screen and (min-width: 601px) {
-  h1 {
-    font-size: 250px;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Fugaz One", sans-serif;
   color: #E16234;
 }
@@ -24,13 +17,8 @@ body {
 }
 
 .heading {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   font-size: 250px;
   margin-bottom: 50px;
   margin-top: 150px;
@@ -38,10 +26,19 @@ body {
   line-height: 101px;
   text-shadow: 0px 4px 1px rgba(0, 0, 0, 0.25);
 }
-
 @media screen and (max-width: 600px) {
   .heading {
     font-size: 70px;
+    margin: 0;
+  }
+}
+
+.Huw {
+  padding-bottom: 120px;
+}
+@media screen and (max-width: 600px) {
+  .Huw {
+    padding: 0;
   }
 }
 
@@ -49,6 +46,14 @@ body {
   color: #F4E78C;
   font-size: 50px;
   margin-left: 45px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+  .subheading {
+    font-size: 20px;
+    padding: 0;
+    margin-left: 10px;
+  }
 }
 
 .button {
@@ -61,32 +66,54 @@ body {
   left: 247px;
   top: 406px;
   background: #E2AA5F;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 14px;
   border: 0px solid transparent;
   font-size: 30px;
+}
+@media screen and (max-width: 600px) {
+  .button {
+    width: 100px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .button a {
+    font-size: 20px;
+  }
 }
 
 a {
   color: #F4E78C;
 }
+@media screen and (max-width: 600px) {
+  a {
+    font-size: 5px;
+  }
+}
 
 p {
   color: #F4E78C;
   background-color: #E2AA5F;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 14px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 26px;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 200px;
   padding: 20px;
+}
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 600px) {
+  p {
+    font-size: 25px;
+  }
 }
 
 .project-name {
@@ -95,60 +122,90 @@ p {
   padding: 20px;
   font-size: 40px;
   text-align: center;
+  height: 300px;
+}
+@media screen and (max-width: 600px) {
+  .project-name {
+    height: 50px;
+    width: 80%;
+    font-size: 15px;
+    text-align: center;
+  }
 }
 
 .grid-item img {
-  height: 550px;
-  width: 550px;
+  height: 300px;
+  width: 350px;
+}
+@media screen and (max-width: 600px) {
+  .grid-item img {
+    height: 100px;
+    width: 80%;
+  }
 }
 
 .wave {
   vertical-align: top;
 }
 
+@media screen and (max-width: 600px) {
+  #wave2 {
+    padding-top: 400px;
+  }
+}
+
 nav {
   height: 10vh;
-  padding: 0 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  padding: 0 40;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   margin-top: 80px;
 }
 
 .intro {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 50px;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  height: 200px;
+  padding: 20px;
 }
 
 .about {
-  margin-top: 100px;
+  width: 80%;
+  margin: 0 auto;
+  height: 250px;
+  padding: 20px;
+}
+@media screen and (max-width: 600px) {
+  .about {
+    height: 570px;
+  }
 }
 
 .grid-container {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   padding: 150px;
-  padding-top: 150px;
+}
+@media screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding-left: 100px;
+    padding-right: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-top: 150px;
+  justify-content: space-around;
+  padding-top: 100px;
 }
-/*# sourceMappingURL=portfolio2.css.map */
+@media screen and (max-width: 600px) {
+  footer {
+    padding: 0;
+  }
+}
