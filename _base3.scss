@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+
+$font-body: "Fugaz One", sans-serif;
+
+$color-primary: #578B7E;
+$color-secondary: #E2AA5F;
+$color-primary-font: #E16234;
+$color-secondary-font: #F4E78C;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-body;
+}
+
+body {
+    background-color: $color-primary;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: $color-secondary-font;
+  }

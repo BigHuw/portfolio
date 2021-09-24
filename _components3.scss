@@ -1,0 +1,91 @@
+h1 {
+    font-size: 150px;
+    line-height: 0.9;
+    margin-left: 10px;
+    color: $color-primary-font;
+    @media screen and (max-width:600px) {
+        font-size: 50px;
+    }
+}
+
+h2 {
+    font-size: 50px;
+    color: $color-secondary-font;
+    margin-left: 20px;
+    @media screen and (max-width:600px) {
+        font-size: 25px;
+        height: 15vh;
+    }
+}
+
+p {
+    color: $color-secondary-font;
+    background-color: $color-secondary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px 190px;
+    padding: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    font-size: 30px;
+    @media screen and (max-width:600px) {
+        font-size: 20px;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+button {
+    color: $color-secondary-font;
+    background-color: $color-secondary;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    width: 150px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    border: 0;
+    @media screen and (max-width:600px) {
+        width: 100px;
+        font-size: 15px;
+        height: 50px;
+    }
+}
+
+h3 {
+    font-size: 150px;
+    line-height: 0.9;
+    margin-left: 10px;
+    color: $color-primary-font;
+    @media screen and (max-width:600px) {
+        font-size: 50px;
+    }
+}
+
+.project-name {
+    background-color: #979797;
+    color: #F4E78C;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    height: 300px;
+
+    @media screen and (max-width:600px) {
+        height: 50px;
+        width: 80%;
+        font-size: 15px;
+        text-align: center;
+    }
+  }
+
+.grid-item img {
+    height: 300px;
+    width: 350px;
+
+    @media screen and (max-width:600px) {
+        height: 100px;
+        width: 80%;
+    }
+}

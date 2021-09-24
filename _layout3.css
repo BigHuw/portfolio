@@ -1,0 +1,89 @@
+.hero {
+  height: 100vh;
+}
+@media screen and (max-width: 1024px) {
+  .hero {
+    height: 75vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero {
+    height: 50vh;
+  }
+}
+.hero h1 {
+  height: 40vh;
+}
+@media screen and (max-width: 1024px) {
+  .hero h1 {
+    height: 25vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero h1 {
+    height: 13vh;
+  }
+}
+.hero h2 {
+  height: 20vh;
+}
+@media screen and (max-width: 1024px) {
+  .hero h2 {
+    height: 15vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero h2 {
+    height: 5vh;
+  }
+}
+.hero p {
+  height: 25vh;
+  margin-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+}
+
+.wave {
+  vertical-align: top;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 150px;
+}
+@media screen and (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 100px;
+    padding-right: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 100px;
+    padding-right: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 20px;
+  }
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 600px) {
+  .socials {
+    font-size: 10px;
+  }
+}

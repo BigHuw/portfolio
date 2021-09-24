@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fugaz One", sans-serif;
+}
+
+body {
+  background-color: #578B7E;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #F4E78C;
+}
+
+h1 {
+  font-size: 150px;
+  line-height: 0.9;
+  margin-left: 10px;
+  color: #E16234;
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+h2 {
+  font-size: 50px;
+  color: #F4E78C;
+  margin-left: 20px;
+}
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 25px;
+    height: 15vh;
+  }
+}
+
+p {
+  color: #F4E78C;
+  background-color: #E2AA5F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px 190px;
+  padding: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  font-size: 30px;
+}
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 20px;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+button {
+  color: #F4E78C;
+  background-color: #E2AA5F;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  width: 150px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  border: 0;
+}
+@media screen and (max-width: 600px) {
+  button {
+    width: 100px;
+    font-size: 15px;
+    height: 50px;
+  }
+}
+
+h3 {
+  font-size: 150px;
+  line-height: 0.9;
+  margin-left: 10px;
+  color: #E16234;
+}
+@media screen and (max-width: 600px) {
+  h3 {
+    font-size: 50px;
+  }
+}
+
+.project-name {
+  background-color: #979797;
+  color: #F4E78C;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  height: 300px;
+}
+@media screen and (max-width: 600px) {
+  .project-name {
+    height: 50px;
+    width: 80%;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+.grid-item img {
+  height: 300px;
+  width: 350px;
+}
+@media screen and (max-width: 600px) {
+  .grid-item img {
+    height: 100px;
+    width: 80%;
+  }
+}
+
+.hero {
+  height: 100vh;
+}
+@media screen and (max-width: 1024px) {
+  .hero {
+    height: 75vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero {
+    height: 50vh;
+  }
+}
+.hero h1 {
+  height: 40vh;
+}
+@media screen and (max-width: 1024px) {
+  .hero h1 {
+    height: 25vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero h1 {
+    height: 13vh;
+  }
+}
+.hero h2 {
+  height: 20vh;
+}
+@media screen and (max-width: 1024px) {
+  .hero h2 {
+    height: 15vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero h2 {
+    height: 5vh;
+  }
+}
+.hero p {
+  height: 25vh;
+  margin-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+}
+
+.wave {
+  vertical-align: top;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 150px;
+}
+@media screen and (max-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 100px;
+    padding-right: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 100px;
+    padding-right: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 20px;
+  }
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 600px) {
+  .socials {
+    font-size: 10px;
+  }
+}
