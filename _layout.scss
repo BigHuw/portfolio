@@ -10,21 +10,26 @@ nav {
 .intro {
     display: flex;
     justify-content: center;
+    text-align: center;
     width: 80%;
-    margin: 0 auto;
+    margin: 50px auto;
     height: 200px;
     padding: 20px;
 }
 
 .about {
-    width: 80%;
-    margin: 0 auto;
-    height: 250px;
+    width: 70%;
+    // height: 250px;
     padding: 20px;
+    margin: 50px auto;
 
-    @media screen and (max-width:600px) {
-        height: 570px;
-    }
+    // @media screen and (max-width:1024px) {
+    //     height: 570px;
+    // }
+
+    // @media screen and (max-width:600px) {
+    //     height: 570px;
+    // }
 }
 
 // .test {
@@ -44,9 +49,18 @@ nav {
     grid-template-columns: auto auto auto auto;
     padding: 150px;
     
+    @media screen and (max-width:1024px) {
+        // grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 100px;
+        padding-right: 60px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 
     @media screen and (max-width:600px) {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        // grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(1,1fr);
         padding-left: 100px;
         padding-right: 60px;
         padding-top: 0;
